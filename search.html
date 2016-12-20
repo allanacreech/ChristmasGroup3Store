@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>Christmas List</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+
+	 <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather+Sans|Berkshire+Swash" rel="stylesheet">
+
+  <style>
+  .badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    right: 55px;
+  }
+  .my-cart-icon-affix {
+    transition: 1s;
+    position: fixed;
+    z-index: 999;
+  }
+
+
+  </style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+	<!-- Bootstrap Core CSS -->
+	<link href="assets/v/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!--link to the css style sheet for html to find -->
+
+	<link rel="stylesheet" href="assets/css/practicesearchstyle.css">
+	<link rel="stylesheet" href="assets/css/flipclock.css">
+	<link rel="stylesheet" href="assets/css/lightbox.css">
+    <script type='text/javascript' src='assets/js/snowstorm.js'></script>
+
+	<!--link to flipclock-->
+	<link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css">
+
+	   <!--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDcseVynAimz-riXL-0Mlg6MDDJxoZ5Hs&callback=initMap"
+	   async defer></script> -->
+	</head>
+	<body>
+
+	
+
+		<div class="container">
+			<div id="row">				
+				<div class="col-md-12">
+        <a href="index.html"><h1 id="banner">Christmas List</h1></a>
+      <div style="float: right; cursor: pointer;">
+        <span class="stocking my-cart-icon""><img src="assets/images/stocking.png" alt=""><span class="badge badge-notify my-cart-badge"></span></span>
+        </div>
+				</div>	
+</div>
+
+
+			
+			<div class="row">
+				
+				<div class="col-md-6">
+					<h3 class="text-center col-md-7d" id="search-title" > Search gifts!</h3>
+					<input type="text" class="form-control search" placeholder="Search here.." id="top">
+				</div>
+				<div class="col-md-6"></div>
+				<!-- <div class="col-md-2"></div>
+				<div class="col-md-4"></div> -->
+			</div>
+
+			
+
+		<!-- 	<div class="col-md-1"></div>
+		<div class="col-md-10"></div>  -->
+		<div class="row">
+			<div class="col-md-7">
+				<div id="pics"></div>
+				<!-- <div class="col-md-1"></div> -->
+			</div>
+		
+    <img id="sleigh" src="assets/images/sleigh.png" alt="">
+
+
+				<div id="player">
+					
+				
+			</div>
+      <img id="footer" src="assets/images/footer.png" alt="">
+		</div>
+		<script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+      	player = new YT.Player('player', {
+      		height: '340',
+      		width: '420',
+      		videoId: '3wbyRTW8fNQ',
+      		events: {
+      			'onReady': onPlayerReady,
+      			'onStateChange': onPlayerStateChange
+      		}
+      	});
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+      	event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+      	if (event.data == YT.PlayerState.PLAYING && !done) {
+          // setTimeout(stopVideo, 6000);
+          done = true;
+      }
+  }
+  function stopVideo() {
+  	player.stopVideo();
+  }
+</script>
+
+
+<script type="text/javascript" src="assets/js/libs/jquery.js"></script>
+
+<script type="text/javascript" src="assets/js/libs/lightbox.js"></script>
+
+
+  <script type='text/javascript' src="assets/js/bootstrap.min.js"></script>
+  <script>
+  	$(function () {
+
+    
+
+    
+
+  });
+
+
+  </script>
+
+  <script type='text/javascript' src="assets/js/jquery.mycart.js"></script>
+  
+
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,264 @@
+/*This is forcing body to whole page*/
+body{height:100%;
+ width:100%;
+ background-image: url("../images/blue.png");
+ /*no-repeat center center fixed; */
+ /*  This should allow the game to resize appropriately*/
+
+
+  -webkit-background-size:  100%; 
+  -moz-background-size:  100%;
+  -o-background-size:  100%;
+  background-width: 100%;
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+ 
+
+
+ /*Keeping all wording in the middle for right now*/
+ font-family: Merriweather Sans;
+
+} 
+
+#banner {
+  transition: 2s;
+color: white;
+  text-shadow: 1px 2px #6cc53a;
+  font-family: Berkshire Swash;
+  font-size: 120px;
+  position: absolute;
+  top: -5px;
+
+}
+
+#banner:hover {
+  font-size: 130px;
+  transition: 2s;
+}
+
+.my-cart-btn {
+  font-size: 20px;
+}
+
+.my-cart-btn:hover{ 
+  transition: 1s;
+font-size: 30px;
+ }
+
+
+
+#santa {
+  width: 100px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left:0;
+
+}
+
+#sleigh {
+  position: fixed;
+  top: 150px;
+  left: 100px;
+  z-index: -5;
+  width: 350px;
+}
+
+#searchHeader {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.badge {
+  background-color: green;
+  margin: 0;
+}
+
+#player {
+  margin-top: 15px;
+  position: fixed;
+float: right;
+  z-index: 2;
+  right: 120px;
+  width: 30%;
+}
+
+#santa {
+  z-index: -1;
+  left: 0;
+}
+
+.jumbotron {
+  border: 2px green;
+}
+
+#top {
+  margin-bottom: 15px;
+  width: 652px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.your-clock{
+
+  padding-left: 500px;
+}
+
+h3 {
+/*  margin-left: 100px;*/
+  color: red;
+
+  font-family: Bree Serif;
+}
+#search-title {
+  margin-right: -500px;
+  font-family: Georgia;
+  font-size: 40px;
+
+  color: white;
+  text-shadow: 1px 1px red;
+
+}
+
+#cartIcon {
+  padding-right: 100px;
+}
+#top {
+  height: 40px;
+}
+
+#pics {
+  margin-bottom: 200px;
+}
+
+.search-img {
+  border: 2px solid #d42426;
+  margin: 20px;
+}
+
+#searchJumboHeader {
+  text-align: center;
+}
+
+.results {
+  font-size: 15px;
+  background: #6cc53a;
+ opacity: .8;
+  margin:10px 0;
+  border-radius: 18px;
+  z-index: 700px;
+
+}
+
+img {
+  opacity: 1.0;
+}
+
+.right-results {
+  right: 0;
+  opacity: 1.0
+
+}
+
+.search-title {
+  color: white;
+font-family: Bree Serif;
+font-size: 25px;
+}
+
+.search-img {
+   border-radius: 5px;
+  
+}
+
+
+.my-cart-btn {
+  transition: 2s;
+  background-color: #d42426;
+}
+
+
+
+.stocking:hover{
+  transition-delay: 2s;
+  animation: animationFrames linear 4s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationFrames linear 4s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationFrames linear 4s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationFrames linear 4s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationFrames linear 4s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames{
+  0% {
+    transform:  rotate(0deg) ;
+  }
+  17% {
+    transform:  rotate(19deg) ;
+  }
+  100% {
+    transform:  rotate(19deg) ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  rotate(0deg) ;
+  }
+  17% {
+    -moz-transform:  rotate(19deg) ;
+  }
+  100% {
+    -moz-transform:  rotate(19deg) ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+  17% {
+    -webkit-transform:  rotate(19deg) ;
+  }
+  100% {
+    -webkit-transform:  rotate(19deg) ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  rotate(0deg) ;
+  }
+  17% {
+    -o-transform:  rotate(19deg) ;
+  }
+  100% {
+    -o-transform:  rotate(19deg) ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  rotate(0deg) ;
+  }
+  17% {
+    -ms-transform:  rotate(19deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(19deg) ;
+  }
+}

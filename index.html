@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>Christmas List</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather+Sans|Berkshire+Swash" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='assets/js/snowstorm.js'></script>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="assets/v/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!--link to the css style sheet for html to find -->
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/flipclock.css">
+
+	<!--link to flipclock-->
+	<link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css">
+
+	   <!--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDcseVynAimz-riXL-0Mlg6MDDJxoZ5Hs&callback=initMap"
+	   async defer></script> -->
+	</head>
+	<body>
+
+
+		
+
+
+		
+			
+		
+		
+
+		<div class="container">
+			
+			<div class="row heading">
+				<section class="col-md-2">
+					<img id="santa" src="assets/images/santa.png" alt="">
+				</section>
+				<section class="col-md-10 banner">
+					<h1 class="text-center" id="banner">Christmas List</h1>
+					<section class="col-push-6">
+
+						<div class="form-group container-fluid">
+							<h2 class="text-center">Search!</h2>
+							<input type="text" class="search form-control" id="search" autofocus placeholder="What do you wish for?">
+						</div>
+
+						<p></p>
+					</section>
+
+				</div>
+				<div class="row">
+
+					<section class="col-push-6 container-fluid text-center right">
+					<h3 class="text-center">Countdown Till' Christmas</h3>
+						<div class="your-clock">
+
+							<div class="clock-builder-output"></div>
+							<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+							<script type="text/javascript" src="clock_assets/flipclock.js"></script>
+							<style text="text/css">body .flip-clock-wrapper ul li a div div.inn, body .flip-clock-small-wrapper ul li a div div.inn { color: #CCCCCC ; background-color: #333333 ; } body .flip-clock-dot, body .flip-clock-small-wrapper .flip-clock-dot { background: #323434 ; } body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper .flip-clock-meridium a { color: #323434 ; }</style>
+							<script type="text/javascript">
+								$(function(){
+									FlipClock.Lang.Custom = { days:'Days', hours:'Hours', minutes:'Minutes', seconds:'Seconds' };
+									var opts = {
+										clockFace: 'DailyCounter',
+										countdown: true,
+										language: 'Custom'
+									};
+									opts.classes = {
+										active: 'flip-clock-active',
+										before: 'flip-clock-before',
+										divider: 'flip-clock-divider',
+										dot: 'flip-clock-dot',
+										label: 'flip-clock-label',
+										flip: 'flip',
+										play: 'play',
+										wrapper: 'flip-clock-small-wrapper'
+									};  
+    var countdown = 1482642000 - ((new Date().getTime())/1000); // from: 12/25/2016 12:00am -0500
+    countdown = Math.max(1, countdown);
+    $('.clock-builder-output').FlipClock(countdown, opts);
+});
+</script>
+
+
+</div>
+</section>
+
+</form>
+</section>
+</div><!--end of first row-->
+
+
+
+
+<!-- <div class="row">
+	<div class="jumbotron">
+		<section class="col-md-2"></section>
+		<section class="col-md-8">
+			<div>Copyright © Group #3</div>
+		</section>
+		<section class="col-md-2"></section>
+	</div>
+</div> -->
+</div>	<!--end of container-->
+
+
+<!-- Added link to the jQuery Library and game JS -->
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/game.js"></script>
+
+<!--ajax-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!--bootstrap-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!--flipclock-->
+<script type="text/javascript" src="assets/js/libs/flipclock.js"></script>
+<script type="text/javascript" src="assets/js/libs/jquery.js"></script>
+
+
+
+
+</body>
+</html
