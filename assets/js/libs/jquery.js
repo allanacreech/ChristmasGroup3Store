@@ -32,7 +32,7 @@ $("#top").attr("value",searched)
 // Assigns ajax variables, pulls from local storage
 var gift = searched
 var apiKey = '93x6nkekfs4k9xvfnh6wpan4'
-var queryURL = 'http://api.walmartlabs.com/v1/search?apiKey=' + apiKey + '&numItems=15&query=' + gift
+var queryURL = 'https://api.walmartlabs.com/v1/search?apiKey=' + apiKey + '&numItems=15&query=' + gift
 
 
 
